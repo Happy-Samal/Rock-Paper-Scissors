@@ -159,6 +159,6 @@ img{
         background-size: contain;
     }
     .user-div img:hover{
-        border: none;
-    }
+    cursor: pointer;
+}
 }
