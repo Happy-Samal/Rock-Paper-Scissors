@@ -158,4 +158,7 @@ img{
     .start{
         background-size: contain;
     }
+    .user-div img:hover{
+        border: none;
+    }
 }
