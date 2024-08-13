@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Enjoy Your Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="photo/favicon1.png" type="image/x-icon">
+</head>
+<body>
+    <header class="start">
+        <div class="welcome" >
+            <p>WELCOME TO HAPPY GAME - ROCK PAPER SCISSORS</p>
+            <button class="start-btn">Start</button>
+        </div>
+        <div class="blackbox"></div>
+    </header>
+    <main class="main display">
+        <div class="nav">
+            <h1 class="animation">Rock Paper Scissors</h1>
+        </div>
+        <div class="container">
+            <div class="user">
+                <div>You</div>
+                <button class="img-div user-div">
+                    <img src="photo/rock.png" alt=0>
+                </button>
+                <button class="img-div user-div">
+                    <img src="photo/paper.png" alt="1">
+                </button>
+                <button class="img-div user-div">
+                    <img src="photo/scissors.png" alt="2">
+                </button>
+            </div>
+            <div class="computer">
+                <div>Computer</div>
+                <button class="img-div comp-div" value="0">
+                    <img src="photo/rock.png" alt="rock">
+                </button>
+                <button class="img-div comp-div" value="1">
+                    <img src="photo/paper.png" alt="paper">
+                </button>
+                <button class="img-div comp-div" value="2">
+                    <img src="photo/scissors.png" alt="scissor">
+                </button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="youScore">Your Score - 0</div>
+            <button class="new-btn">New Game</button>
+            <div class="comScore">Comp. Score - 0</div>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
